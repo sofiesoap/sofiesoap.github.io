@@ -1,0 +1,32 @@
+body {
+	background-color: #CCCCCC;
+}
+p {
+	color: #ff0000;
+	font-size: 20px;
+	font-family: verdana;
+}
+
+h1 {
+	color: orange;
+	text-align: center;
+}
+
+h2 {
+	color: #ff0000;
+	text-align: center;
+}
+
+.first-list {
+	color: #0000;
+	font-family: verdana;
+}
+.first-margins {
+	width: 400px;
+	margin: auto;
+	border-style: double;
+	border-width: 5px;
+	border-color: green;
+	padding: 40px; 
+	background-color: pink;
+}
