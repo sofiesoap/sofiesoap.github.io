@@ -1,5 +1,4 @@
 body {
-	background-color: #CCCCCC;
 	font-family: courier
 }
 
@@ -13,17 +12,10 @@ p {
 	font-size: 20px;
 }
 
-
-.first-list {
-	color: #0000;
-	font-family: verdana;
-}
-.first-margins {
-	width: 400px;
+.footer {
+	width: auto;
 	margin: auto;
-	border-style: double;
-	border-width: 5px;
-	border-color: green;
-	padding: 40px; 
-	background-color: pink;
+	background-color: #CCCCCC;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
