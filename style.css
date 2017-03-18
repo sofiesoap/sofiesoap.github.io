@@ -1,24 +1,54 @@
 body {
-	margin: 70px 0;
-	padding: 10px;
 	text-align: center;
 	font-family: courier
+	margin-top: 10px;
+	margin-left: 60px
+	margin-right: 60px;
 }
 
 p {
 	color: #0000;
-	font-size: 20px;
-	margin: 70px;
+	font-size: 25px;
 }
+
+.first-intro {
+	margin:40px;
+	font-size: 100px;
+}
+
 .social-media {
 	word-spacing: 30px;
 	font-size: 20px;
 }
 
-.footer {
-	width: auto;
-	margin: auto;
-	background-color: #CCCCCC;
-	padding-top: 5%;
-	padding-bottom: 5%;
+.jobs {
+	background-color: #E6E6FA;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 15px;
 }
+
+.footer {
+	display: block;
+	width: 100%;
+	margin-top: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #CCCCCC;
+}
+
+@media only screen and (min-width: 760px) {
+	.main-heading {
+		color: #0000ff;
+	}
+
+	.first-job-img {
+		display: inline-block;
+		padding-right: 10px;
+	}
+
+	.second-job-img {
+		display: inline-block;
+		padding-left: 10px;
+	}
+
