@@ -1,9 +1,6 @@
 body {
 	text-align: center;
-	font-family: courier
-	margin-top: 10px;
-	margin-left: 60px
-	margin-right: 60px;
+	font-family: courier;
 }
 
 p {
@@ -11,9 +8,15 @@ p {
 	font-size: 25px;
 }
 
+.img-circle {
+	padding-top: 20px;
+	border-radius: 25px;
+}
+
 .first-intro {
-	margin:40px;
 	font-size: 100px;
+	margin-left: 60px;
+	margin-right: 60px;
 }
 
 .social-media {
@@ -25,13 +28,12 @@ p {
 	background-color: #E6E6FA;
 	width: 100%;
 	padding-top: 10px;
-	padding-bottom: 15px;
+	padding-bottom: 30px;
 }
 
 .footer {
-	display: block;
+	position: absolute;
 	width: 100%;
-	margin-top: 5px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-color: #CCCCCC;
