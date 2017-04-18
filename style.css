@@ -3,7 +3,7 @@ body {
 	font-family: courier;
 }
 body>div {
-	max-width: 920px;
+	max-width: 970px;
 	margin: 20px auto;
 }
 
@@ -43,6 +43,7 @@ body>div {
 }
 
 .job-block {
+	background-color: #ffabbb;
 	padding-top: 5%;
 	padding-bottom: 5%;
 }
@@ -53,13 +54,7 @@ body>div {
 	background-color: #CCCCCC;
 }
 
-@media only screen and (min-width: 760px) {
-	.fn-img {
-		display: inline-block;
-		padding-right: 10px;
-	}
-
-	.sthlm-img {
-		display: inline-block;
-		padding-left: 10px;
+@media only screen and (max-width: 997px) {
+	.container {
+		width: 100%;
 	}
