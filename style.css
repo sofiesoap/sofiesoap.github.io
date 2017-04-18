@@ -2,6 +2,10 @@ body {
 	text-align: center;
 	font-family: courier;
 }
+body>div {
+	max-width: 970px;
+	margin: 20px auto;
+}
 
 .header-block {
 	background-color: #CCCCCC;
@@ -20,6 +24,8 @@ body {
 
 .img-circle {
 	border-radius: 50%;
+	width: 250px;
+	height: 250px;
 }
 
 .first-intro {
@@ -37,38 +43,18 @@ body {
 }
 
 .job-block {
-	width: 100%;
+	background-color: #ffabbb;
 	padding-top: 5%;
 	padding-bottom: 5%;
 }
 
-.job-fn {
-	background-color: #E6E6FA;
-}
-
-.job-lovebomb {
-	background-color: #c9ffb8;
-}
-
-.job-sthlm {
-	background-color: #ffe6e9;
-}
-
 .footer {
-	position: absolute;
-	width: 100%;
 	padding-top: 10%;
 	padding-bottom: 10%;
 	background-color: #CCCCCC;
 }
 
-@media only screen and (min-width: 760px) {
-	.fn-img {
-		display: inline-block;
-		padding-right: 10px;
-	}
-
-	.sthlm-img {
-		display: inline-block;
-		padding-left: 10px;
+@media only screen and (max-width: 997px) {
+	.container {
+		width: 100%;
 	}
